@@ -6,7 +6,7 @@ This application fetches data from YouTube videos in a specified genre using the
    ```
 2. Create a `.env` file in the root directory and add your API key:
    ```env
-   YOUTUBE_API_KEY=YOUR_YOUTUBE_API_KEY
+   YOUTUBE_API_KEY=YOUR_YOUTUBE_API_KEY  ## Add your api key
      ```
 Execute the following command:
 ```bash
