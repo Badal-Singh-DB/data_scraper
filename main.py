@@ -6,7 +6,7 @@ import os
 def main():
     
     load_dotenv()
-    api_key = os.getenv("YOUTUBE_API_KEY", "AIzaSyDhcx4j09PK8NV4IpBVB5323MJFvOFpcAM")
+    api_key = os.getenv("YOUTUBE_API_KEY", "Add your api key")  //  Add your youtube api generated to run the code
     if not api_key:
         raise ValueError("API key is missing. Ensure it's set in the .env file or hardcoded.")
     scraper = YouTubeScraper(api_key)
